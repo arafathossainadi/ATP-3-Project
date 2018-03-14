@@ -1,0 +1,55 @@
+.main-bg{
+	background-color: #c0c0c0;
+}
+.nav{
+	background-color: #272822FF;
+	width: 100%;
+	height: 50px;
+}
+.nav ul{
+	margin-top: 5px;
+}
+.nav a{
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.nav a:hover{
+	color: #E01E27FF;
+}
+
+.logcard{
+	margin-top: 40px;
+	margin-right: 50px;
+}
+
+.lgnd{
+	width: 300px;
+	background-color: #DDDDDDFF;
+	padding: 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 1px solid grey;
+}
+
+.cbody{
+	width: 300px;
+	background-color: #DDDDDDFF;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.regformbg{
+	width: 300px;
+	background-color: #DDDDDDFF;
+	margin: 30px auto;
+	padding: 30px 0;
+	border-radius: 5px;
+}
+
+.regformsize{
+	width: 250px;
+	margin: 0 auto;
+}
