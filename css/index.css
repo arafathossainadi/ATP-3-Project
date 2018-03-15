@@ -53,3 +53,16 @@
 	width: 250px;
 	margin: 0 auto;
 }
+
+.sexbg{
+	width: 250px;
+	height: 34px;
+	background-color: #fff;
+	padding: 6px 12px;
+	border-radius: 4px;
+}
+
+.dob{
+	width: 80px;
+	display: inline;
+}
