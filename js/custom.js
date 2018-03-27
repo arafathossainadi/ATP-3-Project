@@ -1,10 +1,9 @@
-$(function(){
-	    $('.navbar').affix({
-	      offset: {
-	        /* Affix the navbar after scroll below header */
-	        top: $("header").outerHeight(true)}
-	    });
-	});
+// $(function(){
+// 	    $('.navbar').affix({
+// 	      offset: {
+// 	        top: $("header").outerHeight(true)}
+// 	    });
+// 	});
 
 
 jssor_1_slider_init = function() {
@@ -60,3 +59,32 @@ jssor_1_slider_init = function() {
     $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
     /*#endregion responsive code end*/
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});
