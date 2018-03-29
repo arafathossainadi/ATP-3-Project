@@ -1,9 +1,9 @@
-// $(function(){
-// 	    $('.navbar').affix({
-// 	      offset: {
-// 	        top: $("header").outerHeight(true)}
-// 	    });
-// 	});
+$(function(){
+	    $('.navbar').affix({
+	      offset: {
+	        top: $("header").outerHeight(true)}
+	    });
+	});
 
 
 jssor_1_slider_init = function() {
