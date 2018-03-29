@@ -191,6 +191,7 @@
     color: #fff;
     background-color: #bc3633;
     border-color: #bc3633;
+    transition: 0.3s;
 }
 
 .btn-primary:hover, .btn-primary:focus{
@@ -266,6 +267,7 @@
 	height: 250px;
 	background-color: #E1E1E1;
 	border-radius: 4px;
+	font-family: tr;
 }
 
 .pricing .body .one .card h2{
@@ -303,4 +305,25 @@
 
 .card button{
 	transition: 0.3s;
+}
+
+.x1{
+	margin-bottom: 50px;
+}
+
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+    border-color: rgba(188, 54, 51, 0.8);
+    box-shadow: 0 1px 1px rgba(188, 54, 51, 0.075) inset, 0 0 8px rgba(188, 54, 51, 0.6);
+    outline: 0 none;
+}
+
+.aboutus{
+	background-color: #F0F0F0;
+}
+
+.aboutus div+div>div>div{
+	font-family: tr;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
