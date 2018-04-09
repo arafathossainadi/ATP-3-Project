@@ -60,22 +60,6 @@ jssor_1_slider_init = function() {
     /*#endregion responsive code end*/
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $(window).scroll(function() {
     if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
         $('#return-to-top').fadeIn(200);    // Fade in the arrow

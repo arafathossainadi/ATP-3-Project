@@ -1,0 +1,14 @@
+hr{
+	display: none;
+}
+
+.card hr+div, .card hr+div+div{
+	margin-top: 20px;
+}
+
+
+
+.cardo{
+	height: 180px !important;
+	margin-top: 20px;
+}
