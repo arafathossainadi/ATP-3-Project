@@ -23,6 +23,11 @@
     src: url(../fonts/Titillium-Bold.otf);
 }
 
+@font-face {
+    font-family: tm;
+    src: url(../fonts/Titillium-Semibold.otf);
+}
+
 .affix {
     top: 0;
     width: 100%;
@@ -81,7 +86,7 @@
 	padding-top:10px !important; 
 	padding-bottom:10px !important;
 	vertical-align: middle;
-	color: /*#16110F*/ white !important;
+	color: white !important;
 	font-family: tr;
 	font-weight: 600;
 	font-size: 20px;
@@ -96,15 +101,6 @@
 	background-color: #91202073;
 	outline: 0;
 }
-	
-
-/*.logcard{
-	position: absolute;
-	margin-top: 40px auto;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}*/
 
 .modal-dialog{
 	width: 302px;
@@ -276,7 +272,7 @@ textarea{
 	resize: vertical;
 }
 
-textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+.form-control:focus, textarea:focus, input:focus, select:focus, input[type]:focus, .uneditable-input:focus {   
     border-color: rgba(188, 54, 51, 0.8);
     box-shadow: 0 1px 1px rgba(188, 54, 51, 0.075) inset, 0 0 8px rgba(188, 54, 51, 0.6);
     outline: 0 none;
@@ -328,4 +324,16 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
 	padding-top: 13px;
 }
 
+.booking-card{
+	border:1px solid #bc3633;
+	border-radius: 5px;
+	padding: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #16110F;
+}
+
+input[readonly]{
+	background-color: #fff !important;
+}
 
