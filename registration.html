@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>OFFICE PICK & DROP</title>
+	<title>REGISTRATION</title>
 	<link rel="icon" href="images/larent.png">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/dp/bootstrap-datepicker.css">
@@ -51,19 +51,10 @@
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav">
 							<li><a class="js-scroll-trigger" href="#home">HOME</a></li>
-							<li><a class="js-scroll-trigger" href="index.html#pricing">PRICING</a></li>
+							<li><a class="js-scroll-trigger" href="#pricing">PRICING</a></li>
 							<li><a class="js-scroll-trigger" href="#aboutus">ABOUT US</a></li>
 							<li><a class="js-scroll-trigger" href="#contactus">CONTACT US</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MY PROFILE <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Action</a></li>
-									<li><a href="#">Another action</a></li>
-									<li><a href="#">Something else here</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#">LOGOUT</a></li>
-								</ul>
-							</li>
+							<li><a href="#" data-toggle="modal" data-target="#myModal">LOGIN</a></li>
 						</ul>
 					</div>
 				</div>
@@ -94,107 +85,71 @@
 	</div>
 	<div class="container-fluid pricing" id="pricing">
 		<div class="row text-center title">
-			<h1><span>YOUR BOOKING INFORMATION</span></h1>
+			<h1><span>REGISTRATION</span></h1>
 		</div>
 		<div class="row">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<div class="row booking-card booking-info" style="background-color: #E1E1E1;">
-							<div class="well col-lg-12">
-								<table align="center">
-									<tr>
-										<td class="left">Order No :</td>
-										<td class="right">1545454</td>
-									</tr>
-									<tr>
-										<td class="left">Order Date :</td>
-										<td class="right">14-04-2018 12:23</td>
-									</tr>
-									<tr>
-										<td class="left">Customer Name :</td>
-										<td class="right">Imran Mohammad Imo</td>
-									</tr>
-									<tr>
-										<td class="left">Customer Address :</td>
-										<td class="right">Mohakhali, Dhaka</td>
-									</tr>
-									<tr>
-										<td class="left">Email :</td>
-										<td class="right">imoplayboy@domain.com</td>
-									</tr>
-									<tr>
-										<td class="left">Cell :</td>
-										<td class="right">0123456789</td>
-									</tr>
-								</table>
+						<div class="row booking-card">
+							<div class="col-lg-6">
+								<p style="font-size: 16px; font-family: tm;">FIRST NAME:</p>
+								<input type="text" name="" id="input" class="form-control" value="">
 							</div>
-							<div class="well col-lg-12">
-								<table align="center">
-									<tr>
-										<td class="left">Service Name :</td>
-										<td class="right">Hourly Car Rental</td>
-									</tr>
-									<tr>
-										<td class="left">Package Type :</td>
-										<td class="right">Standard Sedan Car - 4 Hours</td>
-									</tr>
-									<tr>
-										<td class="left">Vehicle Type/Name :</td>
-										<td class="right">Sedan Car</td>
-									</tr>
-									<tr>
-										<td class="left">Start Date :</td>
-										<td class="right">15/04/2018 05:25 pm</td>
-									</tr>
-									<tr>
-										<td class="left">End Date :</td>
-										<td class="right">15/04/2018 06:15 pm</td>
-									</tr>
-									<tr>
-										<td class="left">Start Location :</td>
-										<td class="right">mohakhali</td>
-									</tr>
-									<tr>
-										<td class="left">Destination Location :</td>
-										<td class="right">mohakhali</td>
-									</tr>
-								</table>
+							<div class="col-lg-6">
+								<p style="font-size: 16px; font-family: tm;">LAST NAME:</p>
+								<input type="text" name="" id="input" class="form-control" value="">
 							</div>
-							<div class="well col-lg-12">
-								<table align="center">
-									<tr>
-										<td class="left">Number Of Day :</td>
-										<td class="right">1 Days</td>
-									</tr>
-									<tr>
-										<td class="left">Rental Amount :</td>
-										<td class="right">৳1750.00</td>
-									</tr>
-									<tr>
-										<td class="left">Driver Cost :</td>
-										<td class="right">৳ 0.00</td>
-									</tr>
-									<tr>
-										<td class="left">Service Charge (2%) :</td>
-										<td class="right">৳ 35.00</td>
-									</tr>
-									<tr>
-										<td class="left">Total Amount :</td>
-										<td class="right">৳1785.00</td>
-									</tr>
-									<tr>
-										<td class="left">Paid Amount :</td>
-										<td class="right">৳1785.00</td>
-									</tr>
-									<tr>
-										<td class="left">Booking Status :</td>
-										<td class="right">Pending</td>
-									</tr>
-								</table>
+							<div class="col-lg-6">
+								<p style="font-size: 16px; font-family: tm; margin-top: 20px;">EMAIL:</p>
+								<input type="text" name=""  id="input" class="form-control" value="">
 							</div>
-							<button type="button" class="btn btn-primary">CANCEL BOOKING</button>
-							<button type="button" class="btn btn-primary pull-right">PAY NOW</button>
+							<div class="col-lg-6">
+								<p style="font-size: 16px; font-family: tm; margin-top: 20px;">MOBILE NO:</p>
+								<input type="text" name=""  id="input" class="form-control" value="">
+							</div>
+							<div class="col-lg-12">
+								<p style="font-size: 16px; font-family: tm; margin-top: 20px;">ADDRESS:</p>
+								<input type="text" name=""  id="input" class="form-control" value="">
+							</div>
+							<div class="col-lg-6">
+								<p style="font-size: 16px; font-family: tm;margin-top: 20px;">DIVISION:</p>
+								<select class="form-control">
+									<option value="DHAKA">DHAKA</option>
+									<option value="SYLHET">SYLHET</option>
+									<option value="KHULNA">KHULNA</option>
+									<option value="BARISAL">BARISAL</option>
+									<option value="RANGPUR">RANGPUR</option>
+									<option value="RAJSHAHI">RAJSHAHI</option>
+									<option value="MYMENSINGH">MYMENSINGH</option>
+									<option value="CHITTAGONG">CHITTAGONG</option>
+								</select>
+							</div>
+							<div class="col-lg-6">
+								<p style="font-size: 16px; font-family: tm;margin-top: 20px;">CITY:</p>
+								<input type="text" name=""  id="input" class="form-control" value="">
+							</div>
+							<div class="col-lg-6">
+								<p style="font-size: 16px; font-family: tm; margin-top: 20px;">NEW PASSWORD:</p>
+								<input type="password" name=""  id="input" class="form-control" value="">
+							</div>
+							<div class="col-lg-6">
+								<p style="font-size: 16px; font-family: tm; margin-top: 20px;">CONFIRM PASSWORD</p>
+								<input type="password" name=""  id="input" class="form-control" value="">
+							</div>
+							<div class="col-lg-6">
+								<p style="font-size: 16px; font-family: tm; margin-top: 20px;">UPLOAD PROFILE PHOTO</p>
+								<input type="file" name=""  id="input" class="form-control" value="">
+							</div>
+							<div class="col-lg-6">
+								<p style="font-size: 16px; font-family: tm; margin-top: 20px;">UPLOAD ANY PHOTO ID</p>
+								<input type="file" name=""  id="input" class="form-control" value="">
+							</div>
+							
+							
+							<div class="col-lg-12">
+								<button type="button" class="btn btn-primary" style="margin-top: 20px;">CREATE ACCOUNT</button>
+							</div>
 						</div>
 					</div>
 				</div>

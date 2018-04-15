@@ -378,9 +378,31 @@ input[readonly]{
 
 .dropdown-menu li a{
 	color: white;
+	font-family: tr;
 }
 
-.dropdown-menu li a:hover{
+.dropdown-menu li a:hover, .dropdown-menu li a:focus{
 	background-color: #9d2d2a;
 	color: white;
+}
+
+.booking-history{
+	width: auto;
+	font-family: tr;
+}
+
+.booking-history a{
+	color: #bc3633;
+}
+
+.booking-history{
+	background-color: white !important;
+}
+
+.booking-history th{
+	border-bottom: 2px solid #E1E1E1 !important;
+}
+
+.view-info{
+	width: 70%;
 }
