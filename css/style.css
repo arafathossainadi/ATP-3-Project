@@ -82,7 +82,7 @@
 	border-radius: 0;
 }
 
-.navbar-nav > li > a{
+.navbar-nav > li > a, .navbar-nav > li > div > a{
 	padding-top:10px !important; 
 	padding-bottom:10px !important;
 	vertical-align: middle;
@@ -308,7 +308,6 @@ textarea{
 }
 
 .contactus .form-control:focus{
-
 	border-color: rgba(188, 54, 51, 0.8);
 	box-shadow: 0 1px 1px rgba(188, 54, 51, 0.075) inset, 0 0 8px rgba(188, 54, 51, 0.6);
 	outline: 0 none;
@@ -337,3 +336,51 @@ input[readonly]{
 	background-color: #fff !important;
 }
 
+.booking-info{
+	width: 50%;
+	margin: 20px auto;
+	padding: 25px;
+}
+.booking-info td{
+	padding: 5px;
+	font-family: tr;
+}
+
+.booking-info .left{
+	vertical-align: top;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.booking-info .right{
+	vertical-align: top;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.booking-info tr:hover{
+	background-color: #F0F0F0;
+}
+
+.well{
+	border-radius: 10px;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	background-color: #9d2d2a;
+	border-color: #9d2d2a;
+}
+
+.dropdown-menu{
+	background-color: #bc3633;
+	border: none;
+}
+
+.dropdown-menu li a{
+	color: white;
+}
+
+.dropdown-menu li a:hover{
+	background-color: #9d2d2a;
+	color: white;
+}
