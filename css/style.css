@@ -371,17 +371,17 @@ input[readonly]{
 	border-color: #9d2d2a;
 }
 
-.dropdown-menu{
+.drp .dropdown-menu{
 	background-color: #bc3633;
 	border: none;
 }
 
-.dropdown-menu li a{
+.drp .dropdown-menu li a{
 	color: white;
 	font-family: tr;
 }
 
-.dropdown-menu li a:hover, .dropdown-menu li a:focus{
+.drp .dropdown-menu li a:hover, .dropdown-menu li a:focus{
 	background-color: #9d2d2a;
 	color: white;
 }
@@ -406,3 +406,27 @@ input[readonly]{
 .view-info{
 	width: 70%;
 }
+
+.datepicker{
+background-color: #fff ;
+color: #333 ;
+}
+
+.timepicker{
+	background-color: white;
+}
+
+.bootstrap-datetimepicker-widget{
+	background-color: white;
+	color: black;
+}
+
+.table-condensed a{
+	color: #BC3633;
+}
+
+.table-condensed a:hover{
+	background-color: #EEEEEE;
+	color: #9d2d2a;
+}
+

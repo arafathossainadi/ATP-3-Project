@@ -54,7 +54,7 @@
 							<li><a class="js-scroll-trigger" href="../index.html#pricing">PRICING</a></li>
 							<li><a class="js-scroll-trigger" href="../#aboutus">ABOUT US</a></li>
 							<li><a class="js-scroll-trigger" href="../#contactus">CONTACT US</a></li>
-							<li class="dropdown">
+							<li class="dropdown drp">
 								<a href="../#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROFILE <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="../#">My Bookings</a></li>
@@ -71,28 +71,28 @@
 				</div>
 			</nav>
 			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-			  <div class="modal-dialog" role="document">
-			    <div class="modal-content">
-			    	<div class="card card-login mx-auto mt-5 logcard ">
-			    	  <div class="card-header lgnd text-center" style="font-family: tb">LOGIN</div>
-			    	  <div class="card-body cbody">
-			    	    <form>
-			    	      <div class="form-group">
-			    	        <input class="form-control form-control-a" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" style="font-family: tr;" placeholder="Email/Phone No">
-			    	        <input class="form-control form-control-b" id="exampleInputPassword1" type="password" style="font-family: tr;" placeholder="Password">
-			    	      </div>
-			    	      <a class="btn btn-primary btn-block" href="../userpanel.html">Sign In</a>
-			    	      <div style="margin-top: 8px">
-			    	      	<a class="btn btn-primary btn-block logbtn"  href="../userpanel.html">Reset Password</a>
-			    	      	<a class="btn btn-primary btn-block logbtn pull-right" href="../userpanel.html">Sign Up</a>
-			    	      </div>
-			    	    </form>
-			    	  </div>
-			    	</div>
-			    </div>
-			  </div>
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="card card-login mx-auto mt-5 logcard ">
+							<div class="card-header lgnd text-center" style="font-family: tb">LOGIN</div>
+							<div class="card-body cbody">
+								<form>
+									<div class="form-group">
+										<input class="form-control form-control-a" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" style="font-family: tr;" placeholder="Email/Phone No">
+										<input class="form-control form-control-b" id="exampleInputPassword1" type="password" style="font-family: tr;" placeholder="Password">
+									</div>
+									<a class="btn btn-primary btn-block" href="../userpanel.html">Sign In</a>
+									<div style="margin-top: 8px">
+										<a class="btn btn-primary btn-block logbtn"  href="../userpanel.html">Reset Password</a>
+										<a class="btn btn-primary btn-block logbtn pull-right" href="../userpanel.html">Sign Up</a>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
 	</div>
 	<div class="container-fluid pricing" id="pricing">
 		<div class="row text-center title">
@@ -118,41 +118,45 @@
 							<div class="col-lg-6">
 								<p style="font-size: 16px; font-family: tm; margin-top: 20px;">STARTING DATE & TIME:</p>
 								<div class="form-group">
-								    <div class='input-group date' id='datetimepicker1'>
-								        <input type='text' class="form-control" id="datetimepicker4" />
-								        <span class="input-group-addon">
-								            <i class="fas fa-calendar-alt"></i>
-								        </span>
-								    </div>
+									<div class='input-group date' id='datetimepicker1'>
+										<input type='text' class="form-control" id="datetimepicker4" />
+										<span class="input-group-addon">
+											<i class="fas fa-calendar-alt"></i>
+										</span>
+									</div>
 								</div>
 								<script type="text/javascript">
-								    $(function () {
-								        $('#datetimepicker1').datetimepicker({ minDate: new Date(), format: 'DD/MM/YYYY hh:mm A', icons: {next: 'fas fa-arrow-alt-circle-right', previous: 'fas fa-arrow-alt-circle-left' }});
-								    });
+									$(function () {
+										$('#datetimepicker1').datetimepicker({ debug:true, minDate: new Date(), format: 'DD/MM/YYYY hh:mm A', icons: {next: 'fas fa-arrow-alt-circle-right', previous: 'fas fa-arrow-alt-circle-left', time:'fas fa-clock', up: 'fas fa-arrow-alt-circle-up',
+											down: 'fas fa-arrow-alt-circle-down' , date:'fas fa-calendar-alt' }});
+									});
 
-								    $(function () {
-								        $('#datetimepicker4').datetimepicker({ minDate: new Date(), format: 'DD/MM/YYYY hh:mm A', icons: {next: 'fas fa-arrow-alt-circle-right', previous: 'fas fa-arrow-alt-circle-left' }});
-								    });
+									$(function () {
+										$('#datetimepicker4').datetimepicker({ minDate: new Date(), format: 'DD/MM/YYYY hh:mm A', icons: {next: 'fas fa-arrow-alt-circle-right', previous: 'fas fa-arrow-alt-circle-left', time:'fas fa-clock', up: 'fas fa-arrow-alt-circle-up',
+											down: 'fas fa-arrow-alt-circle-down', date:'fas fa-calendar-alt' }});
+									});
 								</script>
 							</div>
 							<div class="col-lg-6">
-								<p style="font-size: 16px; font-family: tm; margin-top: 20px;">STARTING DATE & TIME:</p>
+								<p style="font-size: 16px; font-family: tm; margin-top: 20px;">RETURNING DATE & TIME:</p>
 								<div class="form-group">
-								    <div class='input-group date'>
-								        <input type='text' class="form-control" id="datetimepicker5" />
-								        <span class="input-group-addon">
-								            <i class="fas fa-calendar-alt"></i>
-								        </span>
-								    </div>
+									<div class='input-group date'>
+										<input type='text' class="form-control" id="datetimepicker5" />
+										<span class="input-group-addon">
+											<i class="fas fa-calendar-alt"></i>
+										</span>
+									</div>
 								</div>
 								<script type="text/javascript">
-								    $(function () {
-								        $('#datetimepicker2').datetimepicker({ minDate: new Date(), format: 'DD/MM/YYYY hh:mm A', icons: {next: 'fas fa-arrow-alt-circle-right', previous: 'fas fa-arrow-alt-circle-left' }});
-								    });
+									$(function () {
+										$('#datetimepicker2').datetimepicker({ minDate: new Date(), format: 'DD/MM/YYYY hh:mm A', icons: {next: 'fas fa-arrow-alt-circle-right', previous: 'fas fa-arrow-alt-circle-left' , time:'fas fa-clock', up: 'fas fa-arrow-alt-circle-up',
+											down: 'fas fa-arrow-alt-circle-down', date:'fas fa-calendar-alt'}});
+									});
 
-								    $(function () {
-								        $('#datetimepicker5').datetimepicker({ minDate: new Date(), format: 'DD/MM/YYYY hh:mm A', icons: {next: 'fas fa-arrow-alt-circle-right', previous: 'fas fa-arrow-alt-circle-left' }});
-								    });
+									$(function () {
+										$('#datetimepicker5').datetimepicker({ minDate: new Date(), format: 'DD/MM/YYYY hh:mm A', icons: {next: 'fas fa-arrow-alt-circle-right', previous: 'fas fa-arrow-alt-circle-left' , time:'fas fa-clock', up: 'fas fa-arrow-alt-circle-up',
+											down: 'fas fa-arrow-alt-circle-down', date:'fas fa-calendar-alt'}});
+									});
 								</script>
 							</div>
 							<div class="col-lg-6">
