@@ -430,3 +430,19 @@ color: #333 ;
 	color: #9d2d2a;
 }
 
+.timepicker .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled.focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary.focus {
+    background-color: #9d2d2a;
+    border-color: #9d2d2a;
+}
+
+.picker-switch table{
+	margin: 0 auto;
+}
+.picker-switch:hover{
+	background-color: #EEEEEE;;
+}
+
+.filestyle{
+	    left: 50%;
+    transform: translate(-17%);
+}

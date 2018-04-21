@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>CHANGE PROFILE PICTURE</title>
-	<link rel="icon" href="../../images/larent.png">
+	<link rel="icon" href="../images/larent.png">
 	<link rel="stylesheet" href="../css/bootstrap.css">
 	<link rel="stylesheet" href="../css/dp/bootstrap-datepicker.css">
 	<link href="../css/style.css" rel="stylesheet">
@@ -50,18 +50,17 @@
 				<div class="container">
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav">
-							<li><a class="js-scroll-trigger" href="home">HOME</a></li>
-							<li><a class="js-scroll-trigger" href="../index.html#pricing">PRICING</a></li>
-							<li><a class="js-scroll-trigger" href="aboutus">ABOUT US</a></li>
-							<li><a class="js-scroll-trigger" href="contactus">CONTACT US</a></li>
-							<li class="dropdown">
+							<li><a class="js-scroll-trigger" href="index.html#home">HOME</a></li>
+							<li><a class="js-scroll-trigger" href="index.html#pricing">PRICING</a></li>
+							<li><a class="js-scroll-trigger" href="index.html#aboutus">ABOUT US</a></li>
+							<li class="drp dropdown">
 								<a  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROFILE <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="booking-history.html">My Bookings</a></li>
-									<li><a href="../index.html#contactus">Send Message</a></li>
-									<li><a href="">View Profile</a></li>
-									<li><a href="">Edit Profile</a></li>
-									<li><a href="../#">Change Profile Picture</a></li>
+									<li><a href="index.html#contactus">Send Message</a></li>
+									<li><a href="view-profile.html">View Profile</a></li>
+									<li><a href="edit-profile.html">Edit Profile</a></li>
+									<li><a href="change-pp.html">Change Profile Picture</a></li>
 									<li role="separator" class="divider"></li>
 									<li><a href="">LOGOUT</a></li>
 								</ul>
@@ -103,9 +102,16 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="row booking-card booking-info view-info" style="background-color: #E1E1E1;">
-							<img src="../images/adi.png" class="img-responsive" alt="Image" style="width: 500px; margin: 0 auto;">
-							<input type="file" class="form-control" name="" id="input" style="width: 500px; margin: 20px auto;">
-							<button type="button" class="btn btn-primary" style="margin-left: 125px;">SUBMIT</button>
+							<img src="../images/adi.png" class="img-responsive" alt="Image" style="width: 250px; margin: 0 auto;">
+							<div class="form-group" style="">
+								<div class="input-group input-file filestyle" name="Fichier1">
+									<span class="input-group-btn">
+										<button class="btn btn-default btn-choose" type="button">Choose</button>
+									</span>
+									<input type="text" class="form-control" placeholder='Choose a file...' style="width: 180px; margin: 20px auto;" />
+								</div>
+							</div>
+							<button type="button" class="btn btn-primary" style="margin-left: 330px;">SUBMIT</button>
 						</div>
 					</div>
 				</div>
